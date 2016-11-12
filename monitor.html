@@ -1,0 +1,13 @@
+<html>
+   <head>
+      <title>{{ title }}</title>
+      <meta http-equiv="refresh" content="20">
+   </head>
+   <body>
+     <ul>
+       {% for item in items %}
+         <li>{{ escape(item) }}</li>
+       {% end %}
+     </ul>
+   </body>
+ </html>
